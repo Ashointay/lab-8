@@ -34,7 +34,9 @@ def main():
                 elif event.key == pygame.K_g:
                     color = GREEN
                 elif event.key == pygame.K_b:
-                    color = BLUE
+                    color = BLUE 
+                elif event.key == pygame.K_SPACE:
+                    color = BLACK
                 #tools
                 if event.key == pygame.K_1:
                     tool = 'line'
